@@ -1,0 +1,45 @@
+name: Maven CI - 冒烟测试
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 步骤1：检出代码
+    - name: Checkout代码
+      uses: actions/checkout@v4
+
+    # 步骤2：设置JDK 21
+    - name: 设置JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+
+    # 步骤3：编译项目
+    - name: 编译项目
+      run: mvn clean compile
+
+    # 步骤4：运行冒烟测试（test目标）
+    - name: 运行冒烟测试
+      run: mvn test
+
+    # 步骤5：打包项目（build目标）
+    - name: 打包项目
+      run: mvn package -DskipTests
+
+    # 步骤6：上传测试报告
+    - name: 上传测试报告
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: test-reports
+        path: target/surefire-reports/
