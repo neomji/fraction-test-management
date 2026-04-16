@@ -63,7 +63,7 @@
                 <version>3.2.0</version>
             </plugin>
             
-            <!-- 依赖打包插件：生成完整jar -->
+            <!-- 依赖打包插件：生成包含所有依赖的完整jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>

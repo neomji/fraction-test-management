@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.numbers.fraction.FractionTest" time="0.149" tests="7" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.numbers.fraction.FractionTest" time="0.004" tests="7" errors="0" skipped="0" failures="2">
   <properties>
-    <property name="java.specification.version" value="17"/>
+    <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.class.path" value="F:\Java\unit_test\unit-test\target\test-classes;F:\Java\unit_test\unit-test\target\classes;C:\Users\admin\.m2\repository\org\apache\commons\commons-numbers-core\1.2\commons-numbers-core-1.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-numbers-fraction\1.2\commons-numbers-fraction-1.2.jar;C:\Users\admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
@@ -11,57 +11,56 @@
     <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="user.country" value="CN"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="F:\Java\jdk17\jdk-17.0.18+8\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire17600978325275354217\surefirebooter4545336876910579376.jar C:\Users\admin\AppData\Local\Temp\surefire17600978325275354217 2026-04-10T00-52-17_199-jvmRun1 surefire4722536230912847693tmp surefire_09820287384902484565tmp"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="F:\Java\jdk21\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire8821349680902715958\surefirebooter7118928309134988205.jar C:\Users\admin\AppData\Local\Temp\surefire8821349680902715958 2026-04-17T00-33-26_841-jvmRun1 surefire4733655226595512603tmp surefire_07171514180846492579tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="org.apache.commons.numbers.fraction.FractionTest"/>
     <property name="surefire.test.class.path" value="F:\Java\unit_test\unit-test\target\test-classes;F:\Java\unit_test\unit-test\target\classes;C:\Users\admin\.m2\repository\org\apache\commons\commons-numbers-core\1.2\commons-numbers-core-1.2.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-numbers-fraction\1.2\commons-numbers-fraction-1.2.jar;C:\Users\admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\admin"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2026-01-20"/>
-    <property name="java.home" value="F:\Java\jdk17\jdk-17.0.18+8"/>
+    <property name="java.home" value="F:\Java\jdk21"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="F:\Java\unit_test\unit-test"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire17600978325275354217\surefirebooter4545336876910579376.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire8821349680902715958\surefirebooter7118928309134988205.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="17.0.18+8"/>
+    <property name="java.runtime.version" value="21.0.10+7-LTS"/>
     <property name="user.name" value="admin"/>
+    <property name="stdout.encoding" value="GBK"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="GBK"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-17.0.18+8"/>
-    <property name="maven.ext.class.path" value="C:\Users\admin\.vscode\extensions\oracle.oracle-java-25.0.1\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="java.vendor.version" value="Temurin-21.0.10+7"/>
     <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
-    <property name="java.version" value="17.0.18"/>
+    <property name="java.version" value="21.0.10"/>
     <property name="user.dir" value="F:\Java\unit_test\unit-test"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="GBK"/>
-    <property name="java.library.path" value="F:\Java\jdk17\jdk-17.0.18+8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Apps\AnaConda\condabin;D:\Program Files\VScode\Microsoft VS Code;F:\Java\jdk17\jdk-17.0.18+8\bin;D:\Program Files\Pycharm\;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;F:\Java\jdk17\jdk-17.0.18+8\jre\bin;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;D:\Program Files\Pycharm\Python安装;C:\Windows;D:\Apps\AnaConda;D:\Apps\AnaConda\Scripts;D:\Apps\AnaConda\Library\bin;D:\Apps\AnaConda\Library\mingw-w64\bin;D:\Apps\AnaConda\Library\user\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;F:\Java\apache-maven-3.9.14\bin;D:\Program Files\Pycharm\Scripts\;D:\Program Files\Pycharm\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\Pycharm\pycharm\PyCharm Community Edition 2025.1.1.1\bin;;D:\Program Files\VScode\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="F:\Java\jdk21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Apps\AnaConda\condabin;C:\Users\admin\bin;F:\Git\Git\mingw64\bin;F:\Git\Git\usr\local\bin;F:\Git\Git\usr\bin;F:\Git\Git\usr\bin;F:\Git\Git\mingw64\bin;F:\Git\Git\usr\bin;C:\Users\admin\bin;F:\Java\jdk21\bin;F:\Java\jdk21\bin;D:\Program Files\Pycharm;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;F:\Java\jdk21\jre\bin;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;D:\Program Files\Pycharm\Python安装;C;C:\Windows;D:\Apps\AnaConda;D:\Apps\AnaConda\Scripts;D:\Apps\AnaConda\Library\bin;D:\Apps\AnaConda\Library\mingw-w64\bin;D:\Apps\AnaConda\Library\user\bin;C:\Program Files\dotnet;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\DTS\Binn;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;F:\Java\apache-maven-3.9.14\bin;F:\Git\Git\cmd;D:\Program Files\Pycharm\Scripts;D:\Program Files\Pycharm;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Pycharm\pycharm\PyCharm Community Edition 2025.1.1.1\bin;D:\Program Files\VScode\Microsoft VS Code\bin;F:\Git\Git\usr\bin\vendor_perl;F:\Git\Git\usr\bin\core_perl;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="GBK"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="17.0.18+8"/>
-    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="java.vm.version" value="21.0.10+7-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="61.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testReduction" classname="org.apache.commons.numbers.fraction.FractionTest" time="0.011"/>
-  <testcase name="testAdd" classname="org.apache.commons.numbers.fraction.FractionTest" time="0.008">
+  <testcase name="testReduction" classname="org.apache.commons.numbers.fraction.FractionTest" time="0"/>
+  <testcase name="testAdd" classname="org.apache.commons.numbers.fraction.FractionTest" time="0">
     <failure message="expected:&lt;5&gt; but was:&lt;7&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<5> but was:<7>
 	at org.apache.commons.numbers.fraction.FractionTest.testAdd(FractionTest.java:36)
 ]]></failure>
@@ -71,8 +70,8 @@
 	at org.apache.commons.numbers.fraction.FractionTest.testSubtract(FractionTest.java:43)
 ]]></failure>
   </testcase>
-  <testcase name="testToString" classname="org.apache.commons.numbers.fraction.FractionTest" time="0.015"/>
+  <testcase name="testToString" classname="org.apache.commons.numbers.fraction.FractionTest" time="0"/>
   <testcase name="testOf" classname="org.apache.commons.numbers.fraction.FractionTest" time="0"/>
-  <testcase name="testMultiply" classname="org.apache.commons.numbers.fraction.FractionTest" time="0.001"/>
-  <testcase name="testZeroDenominator" classname="org.apache.commons.numbers.fraction.FractionTest" time="0"/>
+  <testcase name="testMultiply" classname="org.apache.commons.numbers.fraction.FractionTest" time="0"/>
+  <testcase name="testZeroDenominator" classname="org.apache.commons.numbers.fraction.FractionTest" time="0.001"/>
 </testsuite>

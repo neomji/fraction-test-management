@@ -1,0 +1,3 @@
+org\apache\commons\numbers\fraction\AllTests.class
+org\apache\commons\numbers\fraction\FractionTest.class
+org\apache\commons\numbers\fraction\TestFraction.class
