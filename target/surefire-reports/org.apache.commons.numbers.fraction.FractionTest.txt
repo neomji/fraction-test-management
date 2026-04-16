@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.numbers.fraction.FractionTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.149 s <<< FAILURE! - in org.apache.commons.numbers.fraction.FractionTest
+testAdd(org.apache.commons.numbers.fraction.FractionTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected:<5> but was:<7>
+	at org.apache.commons.numbers.fraction.FractionTest.testAdd(FractionTest.java:36)
+
+testSubtract(org.apache.commons.numbers.fraction.FractionTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<-5>
+	at org.apache.commons.numbers.fraction.FractionTest.testSubtract(FractionTest.java:43)
+
